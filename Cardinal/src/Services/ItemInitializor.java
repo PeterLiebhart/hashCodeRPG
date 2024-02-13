@@ -11,17 +11,18 @@ import java.util.List;
 
 import static Services.XMLReader.readXMLDocument;
 
-public class EnemyInitializor {
-    public static void initializeEnemies(String filepath) {
+public class ItemInitializor {
+    public static void initializeItems(String filepath) {
         List<Entity> enemies = new ArrayList<>();
         org.w3c.dom.Document doc = readXMLDocument(filepath);
-        NodeList nList = doc.getElementsByTagName("Entity");
+        NodeList nList = doc.getElementsByTagName("Item");
 
         for (int temp = 0; temp < nList.getLength(); temp++) {
             Node nNode = nList.item(temp);
             if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element eElement = (Element) nNode;
 
+                //Change to item values
                 String id = eElement.getElementsByTagName("id").item(0).getTextContent();
                 String name = eElement.getElementsByTagName("name").item(0).getTextContent();
                 String desc = eElement.getElementsByTagName("description").item(0).getTextContent();
@@ -29,15 +30,8 @@ public class EnemyInitializor {
                 String attack = eElement.getElementsByTagName("attack").item(0).getTextContent();
 
                 enemies.add(new Entity(Integer.parseInt(id), name, desc, Double.parseDouble(health), Double.parseDouble(attack)));
-
-                /*System.out.println("Name : " + eElement.getElementsByTagName("name").item(0).getTextContent());
-                System.out.println("Description : " + eElement.getElementsByTagName("description").item(0).getTextContent());
-                System.out.println("Health : " + eElement.getElementsByTagName("health").item(0).getTextContent());
-                System.out.println("Attack : " + eElement.getElementsByTagName("attack").item(0).getTextContent());
-                System.out.println("EntityID : " + eElement.getElementsByTagName("id").item(0).getTextContent());
-                System.out.println("-------------------------------------");*/
             }
         }
-        Bestiarium.getInstance().setEntities(enemies);
     }
+    //Add to Singleton
 }
