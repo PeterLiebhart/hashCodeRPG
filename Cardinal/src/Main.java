@@ -12,8 +12,8 @@ import static Services.EnemyInitializor.initializeEnemies;
 import static Services.MapInitializor.initializeMap;
 
 public class Main {
-    public static String MAP_FILEPATH = "C:\\Users\\everyone codes\\IdeaProjects\\Cardinal\\src\\Data\\Map\\Map.xml";
-    public static String ENEMIES_FILEPATH = "C:\\Users\\everyone codes\\IdeaProjects\\Cardinal\\src\\Data\\Entities\\Enemies.xml";
+    public static String MAP_FILEPATH = "C:\\Users\\everyone codes\\IdeaProjects\\hashCodeRPG\\Cardinal\\src\\XMLFile\\Map.xml";
+    public static String ENEMIES_FILEPATH = "C:\\Users\\everyone codes\\IdeaProjects\\hashCodeRPG\\Cardinal\\src\\XMLFile\\Enemies.xml";
 
     public static void main(String[] args) {
         try{
