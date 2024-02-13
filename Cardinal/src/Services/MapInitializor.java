@@ -1,9 +1,9 @@
 package Services;
 
 import Classes.Entities.Base.Entity;
-import Classes.Entities.Enemies.Bestiarium;
-import Classes.Map.MapCell;
-import Classes.Map.Map;
+import Data.Enemies.Bestiarium;
+import Data.Map.MapCell;
+import Data.Map.Map;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

@@ -1,7 +1,7 @@
 package Services;
 
 import Classes.Entities.Base.Entity;
-import Classes.Entities.Enemies.Bestiarium;
+import Data.Enemies.Bestiarium;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;

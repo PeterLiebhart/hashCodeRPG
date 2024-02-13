@@ -1,4 +1,4 @@
-package Classes.Map;
+package Data.Map;
 
 import Classes.Entities.Base.Entity;
 import Classes.Entities.Position;

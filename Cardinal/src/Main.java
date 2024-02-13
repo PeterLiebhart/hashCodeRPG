@@ -1,9 +1,7 @@
 import Classes.Combat;
 import Classes.Entities.Base.Entity;
-import Classes.Entities.Enemies.Bestiarium;
-import Classes.Map.MapCell;
+import Data.Enemies.Bestiarium;
 import Classes.Entities.Player;
-import Classes.Map.Map;
 
 import java.util.ArrayList;
 import java.util.List;

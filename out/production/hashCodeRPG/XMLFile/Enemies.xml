@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Bestiarium>
+    <Entity id="1">
+        <id>1</id>
+        <name>Goblin</name>
+        <description>A small green humanoid creature</description>
+        <level>1</level>
+        <health>2</health>
+        <attack>2</attack>
+    </Entity>
+    <Entity id="2">
+        <id>2</id>
+        <name>Slime</name>
+        <description>A tiny green blob</description>
+        <level>1</level>
+        <health>5</health>
+        <attack>1</attack>
+    </Entity>
+</Bestiarium>

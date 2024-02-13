@@ -1,4 +1,4 @@
-package Classes.Entities.Enemies;
+package Data.Enemies;
 
 import Classes.Entities.Base.Entity;
 import java.util.List;

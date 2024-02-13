@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Entity id="0">
+    <id>0</id>
+    <name></name>
+    <description>The player character.</description>
+    <level>1</level>
+    <health>10</health>
+    <attack>1</attack>
+    <isPlayer>true</isPlayer>
+</Entity>

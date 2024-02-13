@@ -1,4 +1,4 @@
-package Classes.Map;
+package Data.Map;
 
 import java.util.List;
 
